@@ -37,7 +37,7 @@
 
 ### Java
 
-* [JPF-Symbc](https://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc) - Symbolic execution tool built on [Java PathFinder](https://babelfish.arc.nasa.gov/trac/jpf/). Supports multiple constraint solvers, lazy initialization, etc.
+* [Symbolic PathFinder (SPF)](https://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc) - Symbolic execution tool built on [Java PathFinder](https://babelfish.arc.nasa.gov/trac/jpf/). Supports multiple constraint solvers, lazy initialization, etc.
 * [JDart](https://github.com/psycopaths/jdart) - Dynamic symbolic execution tool built on [Java PathFinder](https://babelfish.arc.nasa.gov/trac/jpf/). Supports multiple constraint solvers using [JConstraints](https://github.com/psycopaths/jconstraints).
 * [CATG](https://github.com/ksen007/janala2) - Concolic execution tool that uses [ASM](http://asm.ow2.org/) for instrumentation. Uses CVC4.
 * [LimeTB](http://www.tcs.hut.fi/Software/lime/) - Concolic execution tool that uses [Soot](https://sable.github.io/soot/) for instrumentation. Supports [Yices](http://yices.csl.sri.com/) and [Boolector](http://fmv.jku.at/boolector/). Concolic execution can be distributed.
@@ -53,7 +53,7 @@
 * [KLEE](http://klee.github.io/) - Symbolic execution engine built on LLVM.
 * [Cloud9](http://cloud9.epfl.ch/) - Parallel symbolic execution engine built on KLEE.
 * [Kite](http://www.cs.ubc.ca/labs/isd/Projects/Kite/) - Based on KLEE and LLVM.
-
+* [SymCC](https://github.com/eurecom-s3/symcc) - A compiler wrapper which embeds symbolic execution into the program during compilation, and an associated run-time support library.
 
 ### .NET
 
@@ -75,6 +75,7 @@
 
 ### Python
 
+* [CrossHair](https://github.com/pschanely/CrossHair) - Symbolic execution tool for verifying properties of Python functions.
 * [PyExZ3](https://github.com/thomasjball/PyExZ3) - Symbolic execution of Python functions. A rewrite of the [NICE](https://code.google.com/archive/p/nice-of) project's symbolic execution tool.
 
 
@@ -103,6 +104,7 @@
 * [angr](http://angr.io/) - Python framework for analyzing binaries. Includes a symbolic execution tool.
 * [Triton](https://triton.quarkslab.com/) - Dynamic binary analysis platform that includes a dynamic symbolic execution tool.
 * [manticore](https://github.com/trailofbits/manticore) - Symbolic execution tool for binaries (x86, x86_64 and ARMV7) and Ethereum smart contract bytecode.
+* [BinCAT](https://github.com/airbus-seclab/bincat) - Binary code static analyser, with IDA integration. Performs value and taint analysis, type reconstruction, use-after-free and double-free detection.
 
 
 ### Misc
