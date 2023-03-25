@@ -16,7 +16,9 @@
 * [Symbolic Execution and Program Testing](https://doi.org/10.1145/360248.360252), James C. King.
 * [A system to generate test data and symbolically execute programs](https://doi.org/10.1109/TSE.1976.233817), L. A. Clarke.
 * [All You Ever Wanted to Know about Dynamic Taint Analysis and Forward Symbolic Execution (but Might Have Been Afraid to Ask)](https://doi.org/10.1109/SP.2010.26), Edward J. Schwartz, Thanassis Avgerinos, David Brumley.
+* [Symbolic Execution for Software Testing: Three Decades Later](https://dl.acm.org/doi/10.1145/2408776.2408795), Cristian Cadar and Koushik Sen
 * [A Survey of Symbolic Execution Techniques](https://arxiv.org/pdf/1610.00502.pdf), Roberto Baldoni, Emilio Coppa, Daniele Cono D’Elia, Camil Demetrescu, and Irene Finocchi.
+* ***Collection of symbolic execution papers:** [XMUsuny/symbolic-execution-papers](https://github.com/XMUsuny/symbolic-execution-papers)*
 
 
 ## Courses
@@ -30,6 +32,11 @@
 
 * [Symbolic Execution Lecture at MIT](https://www.youtube.com/watch?v=mffhPgsl8Ws).
 * [Symbolic Execution Lecture (part of Software Security course on Coursera)](https://www.coursera.org/learn/software-security/lecture/agCNF/introducing-symbolic-execution).
+* Program Analysis course by Prof. Dr. Michael Pradel at University of Stuttgart
+  * [Symbolic and Concolic Testing (Part 1, Symbolic)](https://youtu.be/wOO5jpoFIss)
+  * [Symbolic and Concolic Testing (Part 2, Challenges)](https://youtu.be/K_Q32ar1g6g)
+  * [Symbolic and Concolic Testing (Part 3, Concolic)](https://youtu.be/TlEjgqSXYNE)
+  * [Symbolic and Concolic Testing (Part 4, Applications)](https://youtu.be/WSL0Oac2VNc)
 
 
 ## Tools
@@ -62,15 +69,15 @@
 
 ### C
 
-* [CREST](https://github.com/jburnim/crest).
-* [Otter](https://bitbucket.org/khooyp/otter/).
+* [CREST](https://github.com/jburnim/crest) - is an open-source tool for concolic testing of C programs.
+* [Otter](https://bitbucket.org/khooyp/otter/) - is a pure, source-level symbolic executor for C that can be used to test programs.
 * [CIVL](http://vsl.cis.udel.edu/civl/) - A framework that includes the CIVL-C programming language, a model checker and a symbolic execution tool.
 
 
 ### JavaScript
 
-* [Jalangi2](https://github.com/Samsung/jalangi2).
-* [SymJS](https://doi.org/10.1145/2635868.2635913).
+* [Jalangi2](https://github.com/Samsung/jalangi2) - Dynamic analysis framework for JavaScript.
+* [SymJS](https://doi.org/10.1145/2635868.2635913) - Automatic symbolic testing of JavaScript web applications.
 
 
 ### Python
@@ -86,15 +93,15 @@
 
 ### Android
 
-* [SymDroid](http://www.cs.umd.edu/~jfoster/papers/cs-tr-5022.pdf).
+* [SymDroid](http://www.cs.umd.edu/~jfoster/papers/cs-tr-5022.pdf) - A Symbolic Executor to Identify Activity Permission in Android Application.
 
 
 ### Binaries
 
 * [Mayhem](http://dx.doi.org/10.1109/SP.2012.31).
 * [SAGE](https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf) - Whitebox file fuzzing tool for X86 Windows applications.
-* [DART](https://doi.org/10.1145/1064978.1065036). 
-* [BitBlaze](http://bitblaze.cs.berkeley.edu/).
+* [DART](https://doi.org/10.1145/1064978.1065036) - is the first concolic testing tool that combines dynamic test generation.
+* [BitBlaze](http://bitblaze.cs.berkeley.edu/) - Binary Analysis for Computer Security.
 * [PathGrind](https://github.com/codelion/pathgrind) - Path-based dynamic analysis for 32-bit programs.
 * [FuzzBALL](http://bitblaze.cs.berkeley.edu/fuzzball.html) - Symbolic execution tool built on the BitBlaze Vine component.
 * [S2E](http://s2e.systems/) - Symbolic execution platform supporting x86, x86-64, or ARM software stacks.
@@ -104,9 +111,12 @@
 * [angr](http://angr.io/) - Python framework for analyzing binaries. Includes a symbolic execution tool.
 * [Triton](https://triton.quarkslab.com/) - Dynamic binary analysis platform that includes a dynamic symbolic execution tool.
 * [manticore](https://github.com/trailofbits/manticore) - Symbolic execution tool for binaries (x86, x86_64 and ARMV7) and Ethereum smart contract bytecode.
+* [MAAT](https://github.com/trailofbits/maat) - Low-level symbolic execution tool, uses Ghidra's p-code.  
 * [BinCAT](https://github.com/airbus-seclab/bincat) - Binary code static analyser, with IDA integration. Performs value and taint analysis, type reconstruction, use-after-free and double-free detection.
+* [Sydr-Fuzz](https://sydr-fuzz.github.io/) - Continuous Hybrid Fuzzing and Dynamic Analysis for Security Development Lifecycle.
 
 
 ### Misc
 
 * [Symbooglix](https://github.com/symbooglix/symbooglix) - Symbolic execution tool for Boogie programs.
+* [OSS-Sydr-Fuzz](https://github.com/ispras/oss-sydr-fuzz) - Hybrid Fuzzing for Open Source Software
